@@ -20,8 +20,31 @@ import ReactDOM from "react-dom/client";
 // const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(<App3 />);
 
-//
-import App4 from "./App/App4";
+// // useEffect
+// import App4 from "./App/App4";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<App4 />);
+
+// // Changin the title
+// import App5 from "./App/App5";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<App5 />);
+
+// // call to get pockemon JSON
+// import App6 from "./App/App6";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<App6 />);
+
+// React Router
+import App7 from "./App/App7";
+import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App4 />);
+root.render(
+    <BrowserRouter>
+        <App7 />
+    </BrowserRouter>
+);
