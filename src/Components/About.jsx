@@ -1,9 +1,21 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const About = () => {
+    const navigate = useNavigate();
+
+    const goTocontact = () => {
+        navigate("/contact");
+    };
+
     return (
         <>
-            <h1> Hello, Harshit here. </h1>
+            <section>
+                <h1> About Page </h1>
+                <h3>
+                    <button onClick={goTocontact}> Go To Contact</button>
+                </h3>
+            </section>
         </>
     );
 };

@@ -38,13 +38,19 @@ import ReactDOM from "react-dom/client";
 // const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(<App6 />);
 
-// React Router
-import App7 from "./App/App7";
-import { BrowserRouter } from "react-router-dom";
+// // React Router
+// import App7 from "./App/App7";
+// import { BrowserRouter } from "react-router-dom";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(
+//     <BrowserRouter>
+//         <App7 />
+//     </BrowserRouter>
+// );
+
+// React Router Navbar
+import App8 from "./App/App8";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-    <BrowserRouter>
-        <App7 />
-    </BrowserRouter>
-);
+root.render(<App8 />);
