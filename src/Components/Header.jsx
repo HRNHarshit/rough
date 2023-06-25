@@ -1,11 +1,11 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import Menu from "./Menu";
 
 const Header = () => {
     return (
         <>
             <header>
-                <a href="#"> Logo </a>
                 <nav>
                     <ul>
                         <li>
@@ -16,6 +16,9 @@ const Header = () => {
                         </li>
                         <li>
                             <NavLink to="/contact"> Contact </NavLink>
+                        </li>
+                        <li>
+                            <Link to="*"> Error </Link>
                         </li>
                     </ul>
                 </nav>
