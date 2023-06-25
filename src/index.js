@@ -7,12 +7,12 @@ import ReactDOM from "react-dom/client";
 // const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(<App1 />);
 
-// // Project-Google Keep App
-// import "./CSS/index2.css";
-// import App2 from "./App/App2";
+// Project-Google Keep App
+import "./CSS/index2.css";
+import App2 from "./App/App2";
 
-// const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(<App2 />);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App2 />);
 
 // // Context API in React
 // import App3 from "./App/App3";
@@ -49,8 +49,24 @@ import ReactDOM from "react-dom/client";
 //     </BrowserRouter>
 // );
 
-// React Router Navbar
-import App8 from "./App/App8";
+// // React Router Navbar
+// import App8 from "./App/App8";
+// import { BrowserRouter } from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App8 />);
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(
+//     <BrowserRouter>
+//         <App8 />
+//     </BrowserRouter>
+// );
+
+// // Error 404 and error to home page
+// import App9 from "./App/App9";
+// import { BrowserRouter } from "react-router-dom";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(
+//     <BrowserRouter>
+//         <App9 />
+//     </BrowserRouter>
+// )
