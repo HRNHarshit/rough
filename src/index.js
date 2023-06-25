@@ -11,8 +11,8 @@ import ReactDOM from "react-dom/client";
 import "./CSS/index2.css";
 import App2 from "./App/App2";
 
-const rooot = ReactDOM.createRoot(document.getElementById("root"));
-rooot.render(<App2 />);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App2 />);
 
 // // Context API in React
 // import App3 from "./App/App3";
